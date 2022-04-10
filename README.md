@@ -3,7 +3,7 @@ This project entailed creating a simple bookstore to understand & use CRUD opera
 
 ## Setup
 
-### WebPack
+### WebPack setup
 WebPack is a javascript module which does tasks such as bundling all imported code modules, removing unused code etc.
 To setup WebPack, Follow the steps below
 1. In your project directory create a new directory named `src` which is where all of our javascript code is gonna live.
@@ -70,3 +70,6 @@ The file above is meant so that WebPack will look at `./src/index.js` as entry p
 npm run build
 ```
 This will run the script and a new file will be added in our dist folder by the name `bundle.js`. Remeber to include this new file in your HTML code and not the index.js
+
+### Firebase setup
+Add your project's config object in `src/index.js` file
